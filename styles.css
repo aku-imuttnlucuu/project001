@@ -1,0 +1,206 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* BODY */
+body {
+    font-family: Georgia, serif;
+    background-color: #fce4ec;
+    color: #594747;
+    line-height: 1.8;
+    padding: 15px;
+}
+
+/* JUDUL UTAMA */
+h1 {
+    text-align: center;
+    color: #995b72;
+    font-size: 28px;
+    margin: 15px 0;
+}
+header {
+    text-align: center;
+}
+
+header h1,
+header p {
+    text-align: center;
+}
+h2 {
+    color: #a7657e;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/* SEMUA KOTAK */
+.card, section {
+    background-color: #fffafa;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 22px;
+    box-shadow: 0 5px 18px rgba(150, 90, 110, 0.12);
+}
+
+/* SUBJUDUL */
+h3 {
+    color: #654b50;
+    font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+}
+
+/* PARAGRAF */
+p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+/* NAVIGASI */
+nav {
+    background-color: #f7b8cc;
+    padding: 15px;
+    margin: 15px auto;
+    border-radius: 18px;
+    text-align: center;
+    max-width: 900px;
+}
+
+nav a {
+    color: #754354;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: white;
+}
+
+/* LINK */
+a {
+    color: #98566f;
+}
+
+/* GAMBAR */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+
+/* TOMBOL */
+button {
+    background-color: #d88da8;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a7657e;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: #956176;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* ORGANISASI DAN EKSTRAKURIKULER */
+.card h3 {
+    margin-top: 15px;
+}
+
+.card p {
+    margin-bottom: 8px;
+}
+
+/* TAMPILAN HP */
+@media screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    .card, section {
+        padding: 20px;
+        margin: 15px auto;
+        border-radius: 20px;
+    }
+
+    nav {
+        padding: 12px 5px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 13px;
+    }
+}
+
+/* KOTAK ORGANISASI */
+.card2 {
+    background-color: #fffafa;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 22px;
+    max-width: 900px;
+    box-shadow: 0 5px 18px rgba(150, 90, 110, 0.12);
+}
+
+/* KOTAK EKSTRAKURIKULER */
+.card3 {
+    background-color: #fffafa;
+    padding: 25px;
+    margin: 20px auto;
+    border-radius: 22px;
+    max-width: 900px;
+    box-shadow: 0 5px 18px rgba(150, 90, 110, 0.12);
+}
+
+/* JUDUL KOTAK */
+.card2 h2,
+.card3 h2 {
+    color: #a7657e;
+    margin-bottom: 18px;
+}
+
+/* SUBJUDUL */
+.card2 h3,
+.card3 h3 {
+    color: #654b50;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+/* TEKS */
+.card2,
+.card3 {
+    line-height: 1.8;
+    color: #594747;
+}
